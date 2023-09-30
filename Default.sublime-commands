@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "Xdebug Helper: Start Debugging",
+        "command": "xdebug_session_start_wrapper"
+    },
+    {
+        "caption": "Xdebug Helper: Stop Debugging",
+        "command": "xdebug_session_stop_wrapper"
+    },
+    {
+        "caption": "Preferences: Xdebug Helper Settings",
+        "command": "edit_settings",
+        "args"   : {
+            "base_file": "${packages}/XdebugHelper/Xdebug Helper.sublime-settings",
+            "default": "{\n\t$0\n}\n",
+        }
+    },
+    {
+        "caption": "Preferences: Xdebug Helper Key Bindings",
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/XdebugHelper/Default (${platform}).sublime-keymap",
+            "default": "[\n\t$0\n]\n",
+        },
+    },
+]
