@@ -1,0 +1,4 @@
+[
+    {"keys": ["ctrl+shift+f9"], "command": "xdebug_session_start_wrapper"},
+    {"keys": ["ctrl+shift+f10"], "command": "xdebug_session_stop_wrapper"},
+]
