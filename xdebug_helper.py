@@ -81,7 +81,7 @@ class Helper():
         sublime.active_window().run_command("git_gutter")
 
     def disable_gitgutter():
-        Helper.configure_gitgutter("disabled")
+        Helper.configure_gitgutter("true") # Empty command.
 
         # Remove GitGutter regions in order to quickly hide GitGutter.
         for region_name in ['deleted_top', 'deleted_bottom', 'deleted_dual', 'inserted', 'changed', 'untracked', 'ignored']:
